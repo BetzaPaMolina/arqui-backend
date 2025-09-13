@@ -23,11 +23,11 @@ router.get('/categories/:id/products', productController.getProductsByCategory);
 module.exports = router;
 
 /*
-http://localhost:3000/api/products → lista de productos
+http://localhost:3000/api/products lista de productos
 
-http://localhost:3000/api/products/conteo → total de productos
+http://localhost:3000/api/products/conteo total de productos
 
-http://localhost:3000/api/products/suma-precios → suma de precios
+http://localhost:3000/api/products/suma-precios suma de precios
 
-http://localhost:3000/api/categories/1/products → productos de la categoría 1
+http://localhost:3000/api/categories/1/products productos de la categoría 1
 */
